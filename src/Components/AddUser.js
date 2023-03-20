@@ -73,7 +73,7 @@ export default function AddUser({user,setUser}){
          
             
            
-            <button
+            <button className="add-btn"
             onClick={addNewUser}
             >Add</button>
 
