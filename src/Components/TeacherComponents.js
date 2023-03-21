@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 import BaseApp from "../core/Base";
 
 
-export default function UserComponent({user,setUser}){
+export default function TeacherComponent({user,setUser}){
    
 
     //functionality
@@ -16,7 +16,7 @@ export default function UserComponent({user,setUser}){
     return(
         <BaseApp
         
-        title ="Student Details"
+        title ="Teacher Details"
         styles="title">
       <div className="user-content">
 

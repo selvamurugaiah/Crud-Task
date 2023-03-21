@@ -20,7 +20,7 @@
   background-color: grey;
   display: flex;
   justify-content: flex-start;
-  gap:5px;
+  gap:300px;
 
 }
 span>button{
@@ -33,16 +33,7 @@ span>button{
 span>button:hover{
   background-color: black;
 }
-footer{
- 
-  padding:17px;
-  width:100%;
-  font-size: larger;
-  background-color: rgb(19, 17, 17);
-  font-weight: bolder;
-  color:white;
-  
-}
+
 .user-content{
   display:flex;
   flex-wrap: wrap;

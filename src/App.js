@@ -5,6 +5,8 @@ import AddUser from './Components/AddUser';
 import { data } from './Components/data';
 import EditUser from './Components/edit';
 import { NoPage } from './Components/NoPage';
+import TeacherComponent from './Components/TeacherComponents';
+import Teacher from './Components/TeacherDetails';
 
 import UserComponent from './Components/UserComponent';
 import { UserDetails } from './Components/UserDetails';
@@ -22,8 +24,18 @@ function App(){
         user={user}
         setUser={setUser}/>
         </Route>
+        <Route path="/teacher/details">
+            <TeacherComponent
+            user={user}
+            setUser={setUser}/>
+        </Route>
         <Route path="/add/user">
           <AddUser
+          user={user}
+          setUser={setUser}/>
+        </Route>
+        <Route path="/add/teacher">
+          <Teacher
           user={user}
           setUser={setUser}/>
         </Route>
@@ -38,6 +50,8 @@ function App(){
              setUser={setUser}/>
            
           </Route>
+
+          
         
           <Route path="/users">
             <Redirect path="/"/>
