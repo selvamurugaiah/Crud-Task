@@ -32,7 +32,7 @@ export default function AddUser({user,setUser}){
     }
     return(
         <BaseApp
-        title="Add A New User"
+        title="Add A New Student"
         styles="title">
      <div className="input-value">
 

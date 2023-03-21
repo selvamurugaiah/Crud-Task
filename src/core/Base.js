@@ -9,22 +9,27 @@ export default function BaseApp({title,styles,children}){
                 <span>
                     <button
                     onClick={()=>history.push("/add/user")}
-                    >Add user</button>
+                    >Add Student</button>
+                </span>
+                <span>
+                    <button
+                    onClick={()=>history.push("/add/teacher")}
+                    >Add Teacher</button>
                 </span>
                 <span>
                     <button
                     onClick={()=>history.push("/")}
-                    >Dashboard</button>
+                    >Dashboard-Student</button>
+                </span>
+                <span>
+                    <button
+                    onClick={()=>history.push("/teacher/details")}
+                    >Dashboard-Teacher</button>
                 </span>
             
             </div>
            <div className={styles}>{title}</div>
            <div className="children">{children}
-           <footer>contact us
-            <div>email:xyz@gmail.com</div>
-            <div>phone:7734***342</div>
-           </footer>
-           
            </div>
            </div>
         
